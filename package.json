@@ -35,6 +35,7 @@
     "jquery": "^3.6.0",
     "popper.js": "^1.16.1",
     "push-dir": "^0.4.1",
+    "tsparticles": "^1.37.6",
     "vanilla-tilt": "^1.7.2"
   }
 }
