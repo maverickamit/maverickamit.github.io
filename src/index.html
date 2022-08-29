@@ -1,419 +1,538 @@
 <!DOCTYPE html>
 <html lang="en" class="sr">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
 
-<head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
+    <!-- Todo: put here your site title -->
+    <title>Amit | Web Developer</title>
+    <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
+    <meta name="keywords" content="[username], [name], skill" />
+    <!-- Todo: improve your SEO by adding a small description of you -->
+    <meta name="description" content="Amit | Web Developer" />
 
-  <!-- Todo: put here your site title -->
-  <title>Amit | Web Developer</title>
-  <!-- Todo: add some coding keywords below - e.g: (javascript, yourusername, etc) -->
-  <meta name="keywords" content="[username], [name], skill" />
-  <!-- Todo: improve your SEO by adding a small description of you -->
-  <meta name="description" content="Amit | Web Developer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="styles.scss" />
+    <script
+      defer
+      src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"
+    ></script>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-  <link rel="stylesheet" href="styles.scss" />
-  <script defer src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <!-- Todo: remove the below script once you finish your portfolio -->
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+  </head>
 
-  <!-- Todo: remove the below script once you finish your portfolio -->
-  <script async defer src="https://buttons.github.io/buttons.js"></script>
-</head>
+  <!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
 
-<!-- Todo: read the following HTML Todos to create your stunning portfolio website -->
+  <body>
+    <div id="top"></div>
 
-<body>
-  <div id="top"></div>
+    <!-- **** Hero Section **** -->
+    <section id="hero" class="jumbotron">
+      <div class="container">
+        <h1 class="hero-title load-hidden">
+          Hi, my name is <span class="text-color-main">Amit.</span>
+          <br />
+          I'm a <span class="text-color-main">Fullstack </span>Developer.
+        </h1>
+        <p class="hero-cta load-hidden">
+          <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about"
+            >Projects</a
+          >
+        </p>
+      </div>
+    </section>
+    <!-- /END Hero Section -->
 
-  <!-- **** Hero Section **** -->
-  <section id="hero" class="jumbotron">
-    <div class="container">
-      <h1 class="hero-title load-hidden">
-        Hi, my name is <span class="text-color-main">Amit.</span>
-        <br />
-        I'm a <span class="text-color-main">Fullstack </span>Developer.
-      </h1>
-      <p class="hero-cta load-hidden">
-        <a rel="noreferrer" class="cta-btn cta-btn--hero" href="#about">Projects</a>
-      </p>
-    </div>
-  </section>
-  <!-- /END Hero Section -->
-
-  <!-- **** About Section **** -->
-  <section id="about">
-    <div class="container">
-      <h2 class="section-title load-hidden">About me</h2>
-      <div class="row about-wrapper">
-        <div class="col-md-6 col-sm-12">
-          <div class="about-wrapper__image load-hidden">
-            <img alt="Profile Image" class="img-fluid rounded shadow-lg" height="auto" width="300px"
-              src="assets/profile.jpg" alt="Profile Image" />
+    <!-- **** About Section **** -->
+    <section id="about">
+      <div class="container">
+        <h2 class="section-title load-hidden">About me</h2>
+        <div class="row about-wrapper">
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__image load-hidden">
+              <img
+                alt="Profile Image"
+                class="img-fluid rounded shadow-lg"
+                height="auto"
+                width="300px"
+                src="assets/profile.jpg"
+                alt="Profile Image"
+              />
+            </div>
           </div>
-        </div>
-        <div class="col-md-6 col-sm-12">
-          <div class="about-wrapper__info load-hidden">
-            <p class="about-wrapper__info-text">
-              I am a full stack React and Node developer who is interested in working with Blockchain and DApps.
-              I can create Decentralized Apps on Ethereum Blockchain using React and Web3.js for Front end.
-            </p>
-            <p class="about-wrapper__info-text">
-              I can also create dynamic web applications using React, Node and MongoDB. Any web application requiring
-              user
-              database, signup/login via email and oAuth, user dashboard and connecting to third party API etc.
-            </p>
-            <span class="d-flex mt-3">
-              <a rel="noreferrer" target="_blank" class="cta-btn m-3 cta-btn--resume"
-                href="https://www.linkedin.com/in/amitkrghosh/">
-                LinkedIn
-              </a>
-              <br />
-              <a rel="noreferrer" target="_blank" class="cta-btn m-3 cta-btn--resume"
-                href="https://github.com/maverickamit">
-                GitHub
-              </a>
-            </span>
+          <div class="col-md-6 col-sm-12">
+            <div class="about-wrapper__info load-hidden">
+              <p class="about-wrapper__info-text">
+                I am a full stack React and Node developer who is interested in
+                working with Blockchain and DApps. I can create Decentralized
+                Apps on Ethereum Blockchain using React and Web3.js for Front
+                end.
+              </p>
+              <p class="about-wrapper__info-text">
+                I can also create dynamic web applications using React, Node and
+                MongoDB. Any web application requiring user database,
+                signup/login via email and oAuth, user dashboard and connecting
+                to third party API etc.
+              </p>
+              <span class="d-flex mt-3">
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn m-3 cta-btn--resume"
+                  href="https://www.linkedin.com/in/amitkrghosh/"
+                >
+                  LinkedIn
+                </a>
+                <br />
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn m-3 cta-btn--resume"
+                  href="https://github.com/maverickamit"
+                >
+                  GitHub
+                </a>
+              </span>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <!-- /END About Section -->
+    </section>
+    <!-- /END About Section -->
 
-  <!-- **** Projects Section **** -->
-  <section id="projects">
-    <div class="container">
-      <div class="project-wrapper">
-        <h2 class="section-title dark-blue-text">Projects</h2>
+    <!-- **** Projects Section **** -->
+    <section id="projects">
+      <div class="container">
+        <div class="project-wrapper">
+          <h2 class="section-title dark-blue-text">Projects</h2>
 
-        <!-- Notice: each .row is a project -->
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Everchange - Fintech</h3>
-              <div>
-                <p class="mb-4">
-                  Currently working as a full stack developer on a fin tech startup to facilitate donation process for
-                  end users with the help of stripe and plaid. As the lead developer working on the project I am
-                  responsible for building the entire application from scratch.
-                </p>
-                <p class="mb-4">
-                  Frond end stack: React, BootStrap, Mobx, Formik, React-router.
-                </p>
-                <p class="mb-4">
-                  Back end stack: Node, MongoDB, Jsonwebtoken, SendGrid, Plaid, Stripe.
-                </p>
-              </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://everchange-front-staging.herokuapp.com/">
-                See Live
-              </a>
-            </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" target="_blank" href="./project-one.html">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/banner15.png" />
-
+          <!-- Notice: each .row is a project -->
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  Everchange - Fintech
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    Currently working as a full stack developer on a fin tech
+                    startup to facilitate donation process for end users with
+                    the help of stripe and plaid. As the lead developer working
+                    on the project I am responsible for building the entire
+                    application from scratch.
+                  </p>
+                  <p class="mb-4">
+                    Frond end stack: React, BootStrap, Mobx, Formik,
+                    React-router.
+                  </p>
+                  <p class="mb-4">
+                    Back end stack: Node, MongoDB, Jsonwebtoken, SendGrid,
+                    Plaid, Stripe.
+                  </p>
                 </div>
-              </a>
-            </div>
-
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">CrowdCoin - Ethereum</h3>
-              <div>
-                <p class="mb-4">
-                  This is a crowdfunding DApp, built on ethereum blockchain. Users who donate a minimum amount of ether
-                  can become eligible voters to cast votes on requests made by the campaign manager to spend the money
-                  on different expenses.
-                  So, in essense the donors control the fund of the campaign. Currently deployed on rinkeby for testing.
-                </p>
-                <p class="mb-4">
-                  Frond end stack: Web3.js, Next.js, React, React-semantic-ui.
-                </p>
-                <p class="mb-4">
-                  Back end stack: Solidity, Ethereum.
-                </p>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://everchange-front-staging.herokuapp.com/"
+                >
+                  See Live
+                </a>
               </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://crowdcoin-react.vercel.app/">
-                See Live
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://github.com/maverickamit/crowdcoin-react">
-                Repo
-              </a>
             </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://crowdcoin-react.vercel.app" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/project3.1.png" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Face Detection App</h3>
-              <div>
-                <p class="mb-4">
-                  This apps uses Clarifai API to detect human faces in the image provided. Users can register their
-                  account and keep track of the total number of submissions.
-                </p>
-                <p class="mb-4">
-                  Frond end stack: React, BootStrap.
-                </p>
-                <p class="mb-4">
-                  Back end stack: Node, Express, PostgreSQL.
-                </p>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" target="_blank" href="./project-one.html">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/banner15.png"
+                    />
+                  </div>
+                </a>
               </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://amit-ghosh.com/facedetectionapp">
-                See Live
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://github.com/maverickamit/facedetectionapp">
-                Repo
-              </a>
             </div>
           </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://amit-ghosh.com/facedetectionapp" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/banner17.png" />
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Aegis - Polygon</h3>
+                <div>
+                  <p class="mb-4">
+                    Selected as one of the TOP 10 projects on Ethernals
+                    @ETHIndia, India's biggest web3 hackathon for creating a
+                    transparent, decentralized platform to support creators.
+                    Worked as a lead developer on this project. I worked on both
+                    the front end and the smart contracts with a heavier
+                    contribution on the front end side.
+                  </p>
+                  <p class="mb-4">
+                    Frond end stack: React, Mobx, Mantine, React-router.
+                  </p>
+                  <p class="mb-4">Back end stack: Solidity, Polygon.</p>
                 </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">WavePortal - Ethereum</h3>
-              <div>
-                <p class="mb-4">
-                  This project uses rinkeby ethereum testnet. You can connect your metamask wallet and
-                  send a wave to me with a custom message. Some users will be randomly selected for a gift
-                  in terms of some amount of ether.
-                  If your wallet is connected you can see all the messages sent to this smart contract.
-                </p>
-                <p class="mb-4">
-                  Frond end stack: Ethers.js, React, BootStrap.
-                </p>
-                <p class="mb-4">
-                  Back end stack: Hardhat, Solidity, Ethereum.
-                </p>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://aegis-staging.netlify.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/0xAegis/frontend"
+                >
+                  Repo
+                </a>
               </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://waveportal-web3.herokuapp.com/">
-                See Live
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://github.com/maverickamit/waveportal-solidity-contract">
-                Repo
-              </a>
             </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://waveportal-web3.herokuapp.com/" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/project2.1.png" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Bargain - Easy Price Tracker</h3>
-              <div>
-                <p class="mb-4">
-                  With this applicaiton you can track prices of products from online shopping websites.
-                  If there is any change in the price, you'll receive an email. Currently supports Amazon.in or
-                  Flipkart.com only.
-
-                </p>
-                <p class="mb-4">
-                  Frond end stack: React, BootStrap.
-                </p>
-                <p class="mb-4">
-                  Back end stack: Bargain API.
-                </p>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a rel="noreferrer" target="_blank" href="./project-one.html">
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project4.1.jpeg"
+                    />
+                  </div>
+                </a>
               </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://amit-ghosh.com/bargain-react/">
-                See Live
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://github.com/maverickamit/bargain-react">
-                Repo
-              </a>
             </div>
           </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://amit-ghosh.com/bargain-react/" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/banner11.png" />
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  CrowdCoin - Ethereum
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    This is a crowdfunding DApp, built on ethereum blockchain.
+                    Users who donate a minimum amount of ether can become
+                    eligible voters to cast votes on requests made by the
+                    campaign manager to spend the money on different expenses.
+                    So, in essense the donors control the fund of the campaign.
+                    Currently deployed on rinkeby for testing.
+                  </p>
+                  <p class="mb-4">
+                    Frond end stack: Web3.js, Next.js, React, React-semantic-ui.
+                  </p>
+                  <p class="mb-4">Back end stack: Solidity, Ethereum.</p>
                 </div>
-              </a>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">Weather Forecaster</h3>
-              <div>
-                <p class="mb-4">
-                  This app is used to get weather data for a particular place. It uses data from mapbox.com and
-                  darksky.net API.
-
-                </p>
-                <p class="mb-4">
-                  Frond end stack: HTML,CSS, BootStrap, JavaScript.
-                </p>
-                <p class="mb-4">
-                  Back end stack: Node, Handlebars template engine.
-                </p>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://crowdcoin-react.vercel.app/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/maverickamit/crowdcoin-react"
+                >
+                  Repo
+                </a>
               </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://amit-weather-app.herokuapp.com">
-                See Live
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://github.com/maverickamit/weather-server">
-                Repo
-              </a>
             </div>
-          </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://amit-weather-app.herokuapp.com" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/banner5.png" />
-                </div>
-              </a>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-sm-12">
-            <div class="project-wrapper__text load-hidden">
-              <h3 class="project-wrapper__text-title">RoboFriends</h3>
-              <div>
-                <p class="mb-4">
-                  This fully responsive app can show user information in a grid style. A search function is enabled to
-                  search for a
-                  specific profile.
-
-                </p>
-                <p class="mb-4">
-                  Frond end stack: React, HTML,CSS, BootStrap, JavaScript.
-                </p>
-
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://crowdcoin-react.vercel.app"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project3.1.png"
+                    />
+                  </div>
+                </a>
               </div>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://amit-ghosh.com/robofriends">
-                See Live
-              </a>
-              <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--hero"
-                href="https://github.com/maverickamit/robofriends">
-                Repo
-              </a>
             </div>
           </div>
-          <div class="col-lg-8 col-sm-12">
-            <div class="project-wrapper__image load-hidden">
-              <a rel="noreferrer" href="https://amit-ghosh.com/robofriends" target="_blank">
-                <div data-tilt data-tilt-max="4" data-tilt-glare="true" data-tilt-max-glare="0.5"
-                  class="thumbnail rounded js-tilt">
-                  <img alt="Project Image" class="img-fluid" src="assets/banner4.png" />
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">Face Detection App</h3>
+                <div>
+                  <p class="mb-4">
+                    This apps uses Clarifai API to detect human faces in the
+                    image provided. Users can register their account and keep
+                    track of the total number of submissions.
+                  </p>
+                  <p class="mb-4">Frond end stack: React, BootStrap.</p>
+                  <p class="mb-4">Back end stack: Node, Express, PostgreSQL.</p>
                 </div>
-              </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://amit-ghosh.com/facedetectionapp"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/maverickamit/facedetectionapp"
+                >
+                  Repo
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://amit-ghosh.com/facedetectionapp"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/banner17.png"
+                    />
+                  </div>
+                </a>
+              </div>
             </div>
           </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  WavePortal - Ethereum
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    This project uses rinkeby ethereum testnet. You can connect
+                    your metamask wallet and send a wave to me with a custom
+                    message. Some users will be randomly selected for a gift in
+                    terms of some amount of ether. If your wallet is connected
+                    you can see all the messages sent to this smart contract.
+                  </p>
+                  <p class="mb-4">
+                    Frond end stack: Ethers.js, React, BootStrap.
+                  </p>
+                  <p class="mb-4">
+                    Back end stack: Hardhat, Solidity, Ethereum.
+                  </p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://waveportal-web3.herokuapp.com/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/maverickamit/waveportal-solidity-contract"
+                >
+                  Repo
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://waveportal-web3.herokuapp.com/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/project2.1.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-4 col-sm-12">
+              <div class="project-wrapper__text load-hidden">
+                <h3 class="project-wrapper__text-title">
+                  Bargain - Easy Price Tracker
+                </h3>
+                <div>
+                  <p class="mb-4">
+                    With this applicaiton you can track prices of products from
+                    online shopping websites. If there is any change in the
+                    price, you'll receive an email. Currently supports Amazon.in
+                    or Flipkart.com only.
+                  </p>
+                  <p class="mb-4">Frond end stack: React, BootStrap.</p>
+                  <p class="mb-4">Back end stack: Bargain API.</p>
+                </div>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://amit-ghosh.com/bargain-react/"
+                >
+                  See Live
+                </a>
+                <a
+                  rel="noreferrer"
+                  target="_blank"
+                  class="cta-btn cta-btn--hero"
+                  href="https://github.com/maverickamit/bargain-react"
+                >
+                  Repo
+                </a>
+              </div>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div class="project-wrapper__image load-hidden">
+                <a
+                  rel="noreferrer"
+                  href="https://amit-ghosh.com/bargain-react/"
+                  target="_blank"
+                >
+                  <div
+                    data-tilt
+                    data-tilt-max="4"
+                    data-tilt-glare="true"
+                    data-tilt-max-glare="0.5"
+                    class="thumbnail rounded js-tilt"
+                  >
+                    <img
+                      alt="Project Image"
+                      class="img-fluid"
+                      src="assets/banner11.png"
+                    />
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- /END Project -->
         </div>
-        <!-- /END Project -->
-
-
-
-
       </div>
-    </div>
-  </section>
-  <!-- /END Projects Section -->
+    </section>
+    <!-- /END Projects Section -->
 
-  <!-- **** Contact Section **** -->
-  <section id="contact">
-    <div class="container">
-      <h2 class="section-title">Contact</h2>
-      <div class="contact-wrapper load-hidden">
-        <a rel="noreferrer" target="_blank" class="cta-btn cta-btn--resume"
-          href="mailto:amitdgpghosh@gmail.com">Email</a>
+    <!-- **** Contact Section **** -->
+    <section id="contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-wrapper load-hidden">
+          <a
+            rel="noreferrer"
+            target="_blank"
+            class="cta-btn cta-btn--resume"
+            href="mailto:amitdgpghosh@gmail.com"
+            >Email</a
+          >
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- /END Contact Section -->
+    </section>
+    <!-- /END Contact Section -->
 
-  <!-- **** Footer Section **** -->
-  <footer class="footer navbar-static-bottom">
-    <div class="container">
-      <a rel="noreferrer" href="#top" class="back-to-top">
-        <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
-      </a>
-      <div class="social-links">
-        <a rel="noreferrer" href="https://www.linkedin.com/in/amitkrghosh" target="_blank">
-          <i class="fa fa-linkedin fa-inverse"></i>
+    <!-- **** Footer Section **** -->
+    <footer class="footer navbar-static-bottom">
+      <div class="container">
+        <a rel="noreferrer" href="#top" class="back-to-top">
+          <i class="fa fa-angle-up fa-2x" aria-hidden="true"></i>
         </a>
-        <a rel="noreferrer" href="https://github.com/maverickamit" target="_blank">
-          <i class="fa fa-github fa-inverse"></i>
-        </a>
-        <a rel="noreferrer" href="https://bio.link/amitghosh" target="_blank">
-          <i class="fa fa-link fa-inverse"></i>
-        </a>
+        <div class="social-links">
+          <a
+            rel="noreferrer"
+            href="https://www.linkedin.com/in/amitkrghosh"
+            target="_blank"
+          >
+            <i class="fa fa-linkedin fa-inverse"></i>
+          </a>
+          <a
+            rel="noreferrer"
+            href="https://github.com/maverickamit"
+            target="_blank"
+          >
+            <i class="fa fa-github fa-inverse"></i>
+          </a>
+          <a rel="noreferrer" href="https://bio.link/amitghosh" target="_blank">
+            <i class="fa fa-link fa-inverse"></i>
+          </a>
+        </div>
+
+        <hr />
+
+        <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
+        <p class="footer__text">
+          © 2022 -
+          <a
+            rel="noreferrer"
+            href="https://github.com/maverickamit"
+            target="_blank"
+            >Amit Ghosh</a
+          >
+        </p>
+        <p class="footer__text">
+          Template developed by
+          <a rel="noreferrer" href="https://github.com/cobidev" target="_blank"
+            >Jacobo Martínez</a
+          >
+        </p>
       </div>
+    </footer>
+    <!-- /END Footer Section -->
 
-      <hr />
-
-      <!-- Notice: if you want to give me some credit, it will be huge for me! if not, put your data on it -->
-      <p class="footer__text">
-        © 2022 - <a rel="noreferrer" href="https://github.com/maverickamit" target="_blank">Amit Ghosh</a>
-      </p>
-      <p class="footer__text">
-
-        Template developed by
-        <a rel="noreferrer" href="https://github.com/cobidev" target="_blank">Jacobo Martínez</a>
-      </p>
-
-    </div>
-  </footer>
-  <!-- /END Footer Section -->
-
-  <script defer type="module" src="index.js"></script>
-</body>
-
+    <script defer type="module" src="index.js"></script>
+  </body>
 </html>
